@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Documento</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <h1>
+        Ejercicio
+    </h1>
+
+    <form action="post">
+
+        <footer class="nombre">
+
+            Nombre
+            <input class="Box1" type="text">
+
+        </footer>
+
+        <footer class="edad">
+
+            Edad
+            <input class="Box2" type="number">
+
+        </footer>
+
+        <footer class="Genero">
+           
+            <label for="genero"> Genero</label>
+
+            <select name="genero">
+
+            <option value="xd" selected></option>
+
+            <option value="hombre">hombre</option>
+
+            <option value="mujer">mujer</option>
+
+            <option value="otros">otros</option>
+
+            <option value="prefiero no decirlo">prefiero no decirlo</option>
+
+            </select>
+
+        </footer>
+
+    </form>
+
+</body>
+
+</html>
